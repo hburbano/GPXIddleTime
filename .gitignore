@@ -19,8 +19,13 @@ parts/
 sdist/
 var/
 *.egg-info/
+.idea/
 .installed.cfg
 *.egg
+
+#Igenore GPX and CVS test files
+*.csv
+*.gpx
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
